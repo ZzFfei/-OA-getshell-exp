@@ -35,5 +35,5 @@ if __name__ == '__main__':
     for i in line:
         ip = i.split('\n')[0]
         exp(ip)
-    print("检测完毕！请看输出结果！")
+    print("检测完毕！结果查看result.txt！")
     f.close()
